@@ -13,8 +13,13 @@ package com.company.task3;
  */
 
 public class CreditCard {
+    public enum Type {
+        VISA,
+        MASTERCARD,
+        MIR;
+    }
 
     String cardNumber;
     String owner;
-    String type;
+    Type type;
 }
